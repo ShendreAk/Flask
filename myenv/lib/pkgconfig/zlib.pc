@@ -1,0 +1,13 @@
+prefix=/Users/akshayshendre/Desktop/flask/myenv
+exec_prefix=/Users/akshayshendre/Desktop/flask/myenv
+libdir=/Users/akshayshendre/Desktop/flask/myenv/lib
+sharedlibdir=/Users/akshayshendre/Desktop/flask/myenv/lib
+includedir=/Users/akshayshendre/Desktop/flask/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
