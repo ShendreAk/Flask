@@ -10,7 +10,7 @@ def welcome():
 @app.route('/success/<int:score>')
 def success(score):
     res=''
-    if score>50:
+    if score>=50:
         res = 'Pass'
     else:
         res = 'Fail'

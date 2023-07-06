@@ -1,6 +1,14 @@
 <html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename ='file.css') }}">
+    <script type="text/javascript" src= "{{ url_for('static', filename ='script.js') }}" >
+        
+    </script>
+
+</head>
     <body>
-        <h1> HTML Form</h1>
+        <h1> Form</h1>
         <form action="/submit" method="POST">
             <label for="science">Science: </label><br>
             <input type="text" id="science" name="science" value="0"><br>

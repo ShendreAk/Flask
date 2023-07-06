@@ -1,4 +1,11 @@
 <html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename ='file.css') }}">
+        <script type="text/javascript" src= "{{ url_for('static', filename ='script.js') }}" >
+            
+        </script>
+    
+    </head>
     <h2> Result of exam</h2>
     <body>
         The student is {{result}}
